@@ -37,5 +37,5 @@ When /^I create an empty bill$/ do
 end
 
 Then /^it should succeed$/ do
-  Bill.count == 1
+  Bill.count.should == 1
 end
